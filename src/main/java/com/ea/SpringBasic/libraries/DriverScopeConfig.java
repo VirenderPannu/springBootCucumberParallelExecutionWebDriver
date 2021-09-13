@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DriverScopeConfig {
 
+    // Returns the Driver scope object/bean whenever it requires
     @Bean
     public static BeanFactoryPostProcessor beanFactoryPostProcessor() {
         return new DriverScopePostProcessor();
