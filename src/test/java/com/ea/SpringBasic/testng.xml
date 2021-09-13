@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip" thread-count="2" parallel="tests">
+
+    <test name="E2E Test of EAApp 1" browser="chrome">
+        <classes>
+            <!-- <class name="com.ea.SpringBasic.runner.TestRunner"></class> -->
+            <class name="com.ea.SpringBasic.SpringTestNGTest"></class>
+        </classes>
+    </test>
+
+</suite>
+        
