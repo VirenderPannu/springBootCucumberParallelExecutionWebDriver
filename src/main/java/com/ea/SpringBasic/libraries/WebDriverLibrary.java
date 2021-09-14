@@ -26,10 +26,10 @@ public class WebDriverLibrary {
     @ConditionalOnProperty(name = "browser", havingValue = "firefox")
     @Scope("driverscope")
     public WebDriver getFirefoxDriver() {
-        FirefoxOptions firefoxOptions = new FirefoxOptions();
-        firefoxOptions.addArguments("--headless");
+        // FirefoxOptions firefoxOptions = new FirefoxOptions();
+        // firefoxOptions.addArguments("--headless");
         WebDriverManager.firefoxdriver().setup();
-        return new FirefoxDriver(firefoxOptions);
+        return new FirefoxDriver();
     }
 
 
