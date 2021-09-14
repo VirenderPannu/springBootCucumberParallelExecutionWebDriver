@@ -18,7 +18,7 @@
 		<selenium.version>3.141.59</selenium.version>
 		<webdrivermanager.version>5.0.2</webdrivermanager.version>
 		<testng.version>7.4.0</testng.version>
-		<cucumber.version>6.11.0</cucumber.version>
+		<cucumber.version>6.9.1</cucumber.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -110,8 +110,8 @@
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
-				<!-- <version>3.15.0</version> -->
-				<version>5.5.4</version>
+				<version>3.15.0</version>
+				<!-- <version>5.5.4</version> -->
 				<executions>
 					<execution>
 						<id>execution</id>
@@ -121,11 +121,11 @@
 						</goals>
 						<configuration>
 							<projectName>SpringBootCucumberParallelExecutionProject</projectName>
-							<outputDirectory>${project.build.directory}/cucumber-maven-report</outputDirectory>
-							<!-- <inputDirectory>${project.build.directory}/cucumber-json</inputDirectory> -->
-							<jsonFiles>
+							<outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
+							<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+							<!-- <jsonFiles>
 								<param>**/*.json</param>
-							</jsonFiles>
+							</jsonFiles> -->
 						</configuration>
 					</execution>
 				</executions>

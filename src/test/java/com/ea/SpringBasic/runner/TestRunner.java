@@ -11,8 +11,8 @@ import org.testng.annotations.DataProvider;
         //plugin = { "pretty", "html:target/cucumber-reports","json:target/cucumber.json"},
         //tags = {"@currentTest"},
         plugin = {"json:target/cucumber.json", "pretty"},
-        glue = "com.ea.SpringBasic.steps",
-        monochrome = true
+        glue = "com.ea.SpringBasic.steps"
+        //monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
     // Allows to execute cucumber tests scenarios in parallel
