@@ -7,9 +7,8 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {"src/test/java/com/ea/SpringBasic/features"},
-        //plugin = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
-        //plugin = { "pretty", "html:target/cucumber-reports","json:target/cucumber.json"},
         //tags = {"@currentTest"},
+        // Below plugin is create json report and later it will be parsed into html by maven-cucumber-reporting plugin
         plugin = {"json:target/cucumber.json", "pretty"},
         glue = "com.ea.SpringBasic.steps"
         //monochrome = true
