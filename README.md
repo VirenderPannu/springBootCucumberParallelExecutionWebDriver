@@ -7,4 +7,4 @@
 
 [![Java CI with Maven](https://github.com/VirenderPannu/SpringBoot-Cucumber-ParallelExecution-WebDriver/actions/workflows/maven.yml/badge.svg)](https://github.com/VirenderPannu/SpringBoot-Cucumber-ParallelExecution-WebDriver/actions/workflows/maven.yml)
 
-6. Pages Reports - https://virenderpannu.github.io/SpringBoot-Cucumber-ParallelExecution-WebDriver/overview-features.html
+6. Github Pages (use to deploy static pages) used to deploy Cucumber Reports - https://virenderpannu.github.io/SpringBoot-Cucumber-ParallelExecution-WebDriver/overview-features.html
