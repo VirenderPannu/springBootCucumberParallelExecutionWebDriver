@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 
 @SpringBootTest
-public class SpringTestNGTest extends AbstractTestNGSpringContextTests {
+public class SpringTestNGTest_Again extends AbstractTestNGSpringContextTests {
 
     @Autowired
     private WebDriver webDriver;

@@ -4,13 +4,13 @@ import com.ea.SpringBasic.models.TestUserDetails;
 import com.ea.SpringBasic.models.UserDetails;
 import com.ea.SpringBasic.pages.HomePage;
 import com.ea.SpringBasic.pages.LoginPage;
-import io.cucumber.datatable.DataTable;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.testng.Assert;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.openqa.selenium.By;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.testng.Assert;
 
 public class LoginSteps {
 
