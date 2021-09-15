@@ -10,7 +10,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope("prototype") // one way to mark the class as prototype scope for Webdriver
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE) // another way to mark the class as prototype scope for Webdriver
 public class MainPage {
 
     @Autowired

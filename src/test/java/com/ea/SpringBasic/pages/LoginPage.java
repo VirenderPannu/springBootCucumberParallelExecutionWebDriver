@@ -13,7 +13,8 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 @Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope("prototype") // one way to mark the class as prototype scope for Webdriver
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE) // another way to mark the class as prototype scope for Webdriver
 public class LoginPage extends BasePage{
 
     @FindBy(how = How.NAME, using = "UserName")
