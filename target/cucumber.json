@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-15T15:34:33.790Z",
+        "start_timestamp": "2021-10-18T17:39:12.784Z",
         "before": [
           {
             "result": {
-              "duration": 8905048000,
+              "duration": 9013594000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 613228000,
+              "duration": 1170336000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 992216000,
+              "duration": 1032127000,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 86194000,
+              "duration": 248714000,
               "status": "passed"
             },
             "line": 6,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 1446912000,
+              "duration": 1410194000,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 57068000,
+              "duration": 57223000,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 959409000,
+              "duration": 1874066000,
               "status": "passed"
             },
             "line": 11,
@@ -110,15 +110,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-15T15:34:33.790Z",
+        "start_timestamp": "2021-10-18T17:39:12.784Z",
         "before": [
           {
             "result": {
-              "duration": 8936925000,
+              "duration": 8655926000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -129,7 +129,7 @@
         "after": [
           {
             "result": {
-              "duration": 1004940000,
+              "duration": 1125635000,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1326596000,
+              "duration": 1346279000,
               "status": "passed"
             },
             "line": 15,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 63587000,
+              "duration": 280614000,
               "status": "passed"
             },
             "line": 16,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 983112000,
+              "duration": 3394635000,
               "status": "passed"
             },
             "line": 19,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 71644000,
+              "duration": 54577000,
               "status": "passed"
             },
             "line": 20,
@@ -216,15 +216,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-15T15:34:33.790Z",
+        "start_timestamp": "2021-10-18T17:39:12.784Z",
         "before": [
           {
             "result": {
-              "duration": 8902461000,
+              "duration": 9735862000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -235,7 +235,7 @@
         "after": [
           {
             "result": {
-              "duration": 600975000,
+              "duration": 1153877000,
               "status": "passed"
             },
             "match": {
@@ -248,7 +248,7 @@
         "steps": [
           {
             "result": {
-              "duration": 992237000,
+              "duration": 1052038000,
               "status": "passed"
             },
             "line": 5,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 86318000,
+              "duration": 200094000,
               "status": "passed"
             },
             "line": 6,
@@ -286,7 +286,7 @@
           },
           {
             "result": {
-              "duration": 2331377000,
+              "duration": 1371303000,
               "status": "passed"
             },
             "line": 9,
@@ -298,7 +298,7 @@
           },
           {
             "result": {
-              "duration": 94268000,
+              "duration": 51515000,
               "status": "passed"
             },
             "line": 10,
@@ -310,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 1005095000,
+              "duration": 1876635000,
               "status": "passed"
             },
             "line": 11,
@@ -323,15 +323,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-15T15:34:33.790Z",
+        "start_timestamp": "2021-10-18T17:39:12.784Z",
         "before": [
           {
             "result": {
-              "duration": 9644424000,
+              "duration": 11608083000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -342,7 +342,7 @@
         "after": [
           {
             "result": {
-              "duration": 787606000,
+              "duration": 1169958000,
               "status": "passed"
             },
             "match": {
@@ -355,7 +355,7 @@
         "steps": [
           {
             "result": {
-              "duration": 980662000,
+              "duration": 1025810000,
               "status": "passed"
             },
             "line": 15,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 75797000,
+              "duration": 195373000,
               "status": "passed"
             },
             "line": 16,
@@ -393,7 +393,7 @@
           },
           {
             "result": {
-              "duration": 1002712000,
+              "duration": 1362190000,
               "status": "passed"
             },
             "line": 19,
@@ -405,7 +405,7 @@
           },
           {
             "result": {
-              "duration": 46557000,
+              "duration": 37484000,
               "status": "passed"
             },
             "line": 20,

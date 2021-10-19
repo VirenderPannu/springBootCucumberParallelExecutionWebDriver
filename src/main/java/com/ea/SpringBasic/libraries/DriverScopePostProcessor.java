@@ -12,6 +12,6 @@ public class DriverScopePostProcessor implements BeanFactoryPostProcessor {
     // In order to use it, we need to register it explicitely first to common app Context. One easy way to register it is by writing a custom ConfigurableBeanFactory and BeanFactoryPostProcessor
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
-        configurableListableBeanFactory.registerScope("driverscope", driverScope);
+        configurableListableBeanFactory.registerScope("webdriverscope", driverScope);
     }
 }

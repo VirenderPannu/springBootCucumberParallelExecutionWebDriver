@@ -11,8 +11,10 @@ public abstract class BasePage {
     @Autowired
     private WebDriver webDriver;
 
-    @PostConstruct
-    public void InitPage() {
+    @PostConstruct // Right after constructing the Webdriver bean on IoC container, this calls up
+    public void InitPage() { // This method is extended by the derived classes and initiated their respective elements
         PageFactory.initElements(webDriver, this);
     }
+
+    
 }

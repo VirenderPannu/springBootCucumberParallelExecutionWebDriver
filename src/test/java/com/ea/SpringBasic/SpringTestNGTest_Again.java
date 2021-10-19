@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-@SpringBootTest
+@SpringBootTest // To bootstarp the entire IoC container i.e. ApplicationContext
 public class SpringTestNGTest_Again extends AbstractTestNGSpringContextTests {
 
     @Autowired

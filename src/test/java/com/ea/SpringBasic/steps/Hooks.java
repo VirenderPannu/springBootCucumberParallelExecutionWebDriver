@@ -16,7 +16,9 @@ public class Hooks {
     private String appUrl;
 
     @Before // Same as TestNG's @BeforeMethod
-    public void InitializeTest(Scenario scenario) {
+    public void InitializeTest() {
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        System.out.println(appUrl);
         webDriver.navigate().to(appUrl);
     }
 

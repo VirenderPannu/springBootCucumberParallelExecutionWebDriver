@@ -13,9 +13,7 @@ import org.testng.annotations.DataProvider;
         glue = "com.ea.SpringBasic.steps"
         //monochrome = true
 )
-
-// Cucumber runner with extending TestNG cucumber Tests class
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests { // Cucumber runner with extending TestNG cucumber Tests class
     // Allows to execute cucumber tests scenarios in parallel
     // In case of false - it will show error NoSuchSession Session ID is null
     @DataProvider(parallel = true)

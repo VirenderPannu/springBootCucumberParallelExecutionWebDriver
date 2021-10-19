@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-		<selenium.version>3.141.59</selenium.version>
+		<selenium.version>4.0.0</selenium.version>
 		<webdrivermanager.version>5.0.2</webdrivermanager.version>
 		<testng.version>7.4.0</testng.version>
 		<cucumber.version>6.9.1</cucumber.version>

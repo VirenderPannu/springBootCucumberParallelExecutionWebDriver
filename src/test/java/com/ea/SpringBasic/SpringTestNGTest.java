@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-@SpringBootTest
+@SpringBootTest // To bootstarp the entire IoC container i.e. ApplicationContext
 public class SpringTestNGTest extends AbstractTestNGSpringContextTests {
 
     @Autowired
@@ -49,7 +49,7 @@ public class SpringTestNGTest extends AbstractTestNGSpringContextTests {
     }
 
     @BeforeSuite(alwaysRun = true)
-    @Override
+    @Override // Before suite, it will overide the test context so that it can instantiate Bean of WebDriver  
     protected void springTestContextPrepareTestInstance() throws Exception {
         super.springTestContextPrepareTestInstance();
     }

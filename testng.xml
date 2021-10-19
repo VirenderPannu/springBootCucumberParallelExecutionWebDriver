@@ -3,8 +3,8 @@
 
     <test name="E2E Test of EAApp 1" browser="firefox">
         <classes>
-            <class name="com.ea.SpringBasic.runner.TestRunner"></class>
-            <!-- <class name="com.ea.SpringBasic.SpringTestNGTest"></class> -->
+            <!-- <class name="com.ea.SpringBasic.runner.TestRunner"></class> -->
+            <class name="com.ea.SpringBasic.SpringTestNGTest"></class>
         </classes>
     </test>
 
