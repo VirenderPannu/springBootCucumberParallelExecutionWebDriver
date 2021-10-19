@@ -1,17 +1,64 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.488 s <<< FAILURE! - in TestSuite
-testLoginAgain(com.ea.SpringBasic.SpringTestNGTest)  Time elapsed: 0.038 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"link text","selector":"Login"}
-  (Session info: chrome=94.0.4606.81)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'ndi-mb-063', ip: '192.168.1.13', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c812954318466379f5ff620a28fb19f2, findElement {using=link text, value=Login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/y2/d3yk9x3s5cg...}, goog:chromeOptions: {debuggerAddress: localhost:52112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52112/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c812954318466379f5ff620a28fb19f2
-	at com.ea.SpringBasic.SpringTestNGTest.testLoginAgain(SpringTestNGTest.java:46)
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.226 s <<< FAILURE! - in TestSuite
+runScenario(com.ea.SpringBasic.runner.TestRunner)  Time elapsed: 0.116 s  <<< FAILURE!
+io.cucumber.core.backend.CucumberBackendException: 
+Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+
+runScenario(com.ea.SpringBasic.runner.TestRunner)  Time elapsed: 0.117 s  <<< FAILURE!
+io.cucumber.core.backend.CucumberBackendException: 
+Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+
+runScenario(com.ea.SpringBasic.runner.TestRunner)  Time elapsed: 0.117 s  <<< FAILURE!
+io.cucumber.core.backend.CucumberBackendException: 
+Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+
+runScenario(com.ea.SpringBasic.runner.TestRunner)  Time elapsed: 0.117 s  <<< FAILURE!
+io.cucumber.core.backend.CucumberBackendException: 
+Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
 

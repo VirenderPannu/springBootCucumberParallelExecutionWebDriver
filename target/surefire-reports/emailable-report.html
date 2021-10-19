@@ -9,42 +9,113 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">E2E Test of EAApp 1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,373</td><td></td><td></td></tr>
+<tr><td><a href="#t0">E2E Test of EAApp 1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">573</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E2E Test of EAApp 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ea.SpringBasic.SpringTestNGTest</td><td><a href="#m0">testLoginAgain</a></td><td rowspan="1">1634578817597</td><td rowspan="1">30</td></tr><tr><th colspan="4">E2E Test of EAApp 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ea.SpringBasic.SpringTestNGTest</td><td><a href="#m1">testLogin</a></td><td rowspan="1">1634578814616</td><td rowspan="1">2976</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E2E Test of EAApp 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.ea.SpringBasic.runner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="4">1634634850598</td><td rowspan="4">109</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
 </table>
-<h2>E2E Test of EAApp 1</h2><h3 id="m0">com.ea.SpringBasic.SpringTestNGTest#testLoginAgain</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Login&quot;}
-  (Session info: chrome=94.0.4606.81)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;ndi-mb-063&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;11.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c812954318466379f5ff620a28fb19f2, findElement {using=link text, value=Login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/y2/d3yk9x3s5cg...}, goog:chromeOptions: {debuggerAddress: localhost:52112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52112/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c812954318466379f5ff620a28fb19f2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy66.click(Unknown Source)
-	at com.ea.SpringBasic.pages.HomePage.ClickLogin(HomePage.java:29)
-	at com.ea.SpringBasic.SpringTestNGTest.testLoginAgain(SpringTestNGTest.java:46)
-	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:184)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+<h2>E2E Test of EAApp 1</h2><h3 id="m0">com.ea.SpringBasic.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with correct username and password 4&quot;</td><td>&quot;Optional[LoginFeature Again]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.core.backend.CucumberBackendException: Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:129)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:97)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:65)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.ea.SpringBasic.SpringTestNGTest#testLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ea.SpringBasic.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with correct username and password 3&quot;</td><td>&quot;Optional[LoginFeature Again]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.core.backend.CucumberBackendException: Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:129)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:97)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:65)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ea.SpringBasic.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with correct username and password 1&quot;</td><td>&quot;Optional[LoginFeature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.core.backend.CucumberBackendException: Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:129)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:97)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:65)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ea.SpringBasic.runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with correct username and password 2&quot;</td><td>&quot;Optional[LoginFeature]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.core.backend.CucumberBackendException: Please annotate a glue class with some context configuration.
+
+For example:
+
+   @CucumberContextConfiguration
+   @SpringBootTest(classes = TestConfig.class)
+   public class CucumberSpringConfiguration { }
+Or: 
+
+   @CucumberContextConfiguration
+   @ContextConfiguration( ... )
+   public class CucumberSpringConfiguration { }
+	at io.cucumber.spring.SpringFactory.start(SpringFactory.java:129)
+	at io.cucumber.core.runner.Runner.buildBackendWorlds(Runner.java:97)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:65)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

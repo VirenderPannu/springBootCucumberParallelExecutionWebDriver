@@ -1,11 +1,11 @@
 package com.ea.SpringBasic.models;
 
-public class UserDetails {
+public class UserDetailsPOJO {
 
     private String username;
     private String password;
 
-    public UserDetails(String username, String password) {
+    public UserDetailsPOJO(String username, String password) {
         this.username = username;
         this.password = password;
     }

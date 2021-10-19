@@ -8,13 +8,13 @@ import org.springframework.stereotype.Component;
 @ScenarioScope
 public class TestUserDetails {
 
-    private UserDetails userDetails;
+    private UserDetailsPOJO userDetails;
 
-    public UserDetails getUserDetails() {
+    public UserDetailsPOJO getUserDetails() {
         return userDetails;
     }
 
-    public void setUserDetails(UserDetails userDetails) {
+    public void setUserDetails(UserDetailsPOJO userDetails) {
         this.userDetails = userDetails;
     }
 }

@@ -10,7 +10,6 @@ Feature: LoginFeature
              Then I should see the userform page
               And I click logout link
 
-
         Scenario: Login with correct username and password 2
             Given I click login in Home Page
               And I enter the following for Login

@@ -1,7 +1,7 @@
 package com.ea.SpringBasic.steps;
 
 import com.ea.SpringBasic.models.TestUserDetails;
-import com.ea.SpringBasic.models.UserDetails;
+import com.ea.SpringBasic.models.UserDetailsPOJO;
 import com.ea.SpringBasic.pages.HomePage;
 import com.ea.SpringBasic.pages.LoginPage;
 
@@ -27,7 +27,7 @@ public class LoginSteps {
     public void iClickLoginInHomePage() {
         homePage.ClickLogin();
         //Scenario scope
-        testUserDetails.setUserDetails(new UserDetails("admin", "password"));
+        testUserDetails.setUserDetails(new UserDetailsPOJO("admin", "password"));
     }
 
     @And("I click login button")
