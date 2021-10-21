@@ -22,7 +22,7 @@ public class WebDriverLibrary {
     @Scope("webdriverscope")
     public WebDriver getChromeDriver() {
         ChromeOptions chromeOptions = new ChromeOptions();
-        // chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
         return new ChromeDriver(chromeOptions);
     }
@@ -32,7 +32,7 @@ public class WebDriverLibrary {
     @Scope("webdriverscope")
     public WebDriver getFirefoxDriver() {
         FirefoxOptions firefoxOptions = new FirefoxOptions();
-        //firefoxOptions.addArguments("--headless");
+        firefoxOptions.addArguments("--headless");
         WebDriverManager.firefoxdriver().setup();
         return new FirefoxDriver(firefoxOptions);
     }

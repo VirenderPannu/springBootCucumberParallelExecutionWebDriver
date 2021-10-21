@@ -3,16 +3,16 @@
 
     <test name="E2E Test of EAApp 1" browser="chrome">
         <classes>
-            <!-- <class name="com.ea.SpringBasic.runner.TestRunner"></class> -->
-            <class name="com.ea.SpringBasic.SpringTestNGTest"></class>
+            <class name="com.ea.SpringBasic.runner.TestRunner"></class>
+            <!-- <class name="com.ea.SpringBasic.SpringTestNGTest"></class> -->
         </classes>
     </test>
 
-    <test name="E2E Test of EAApp 2" browser="chrome">
+    <!-- <test name="E2E Test of EAApp 2" browser="chrome">
         <classes>
             <class name="com.ea.SpringBasic.SpringTestNGTest_Again"></class>
         </classes>
-    </test>
+    </test> -->
 
 </suite>
         
