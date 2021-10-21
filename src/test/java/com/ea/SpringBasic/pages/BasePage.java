@@ -1,11 +1,14 @@
 package com.ea.SpringBasic.pages;
 
+import javax.annotation.PostConstruct;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
 
-import javax.annotation.PostConstruct;
-
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public abstract class BasePage {
 
     @Autowired

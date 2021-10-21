@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
-import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -39,6 +39,7 @@ public class SpringTestNGTest extends AbstractTestNGSpringContextTests {
         homePage.ClickLogin();
         loginPage.Login("admin", "password");
         loginPage.ClickLogin();
+        homePage.ClickLogoff();
     }
 
     @Test
@@ -54,7 +55,7 @@ public class SpringTestNGTest extends AbstractTestNGSpringContextTests {
         super.springTestContextPrepareTestInstance();
     }
 
-    @AfterClass
+    @AfterTest
     protected void tearDownWebDriver(){
         webDriver.quit();
     }

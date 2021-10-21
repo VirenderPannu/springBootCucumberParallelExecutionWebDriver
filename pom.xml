@@ -87,21 +87,24 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
-				   <configuration>
+				   <!-- <configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
-					</configuration>
+					</configuration> -->
+
 				<!-- Below TestRunner include is to execute cucumber test scenarios -->
-				<!-- <configuration>
+				<configuration>
 					<includes>
 						<include>com.ea.SpringBasic.runner.TestRunner</include>
 					</includes>
-				</configuration> -->
+				</configuration>
+
 				<!-- Below SpringTestNGTest runner include is to execute TestNG test scenarios -->
 				<!-- <configuration>
 					<includes>
 						<include>com.ea.SpringBasic.SpringTestNGTest</include>
+						<include>com.ea.SpringBasic.SpringTestNGTest_Again</include>
 					</includes>
 				</configuration> -->
 

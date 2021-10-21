@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = {"src/test/java/com/ea/SpringBasic/features"},
-        //tags = {"@currentTest"},
+        // tags = {"@smokeTest", "@regressionTest"},
         // Below plugin is create json report and later it will be parsed into html by maven-cucumber-reporting plugin
         plugin = {"json:target/cucumber.json", "pretty"},
         glue = "com.ea.SpringBasic.steps"
