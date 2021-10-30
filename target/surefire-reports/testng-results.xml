@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-21T14:17:19 IST" name="Surefire suite" finished-at="2021-10-21T14:17:33 IST" duration-ms="14183">
+  <suite started-at="2021-10-29T14:03:40 IST" name="Suite" finished-at="2021-10-29T14:04:07 IST" duration-ms="26667">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-10-21T14:17:19 IST" name="Surefire test" finished-at="2021-10-21T14:17:33 IST" duration-ms="14183">
-      <class name="com.ea.SpringBasic.runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" started-at="2021-10-21T14:17:19 IST" name="setUpClass" finished-at="2021-10-21T14:17:19 IST" duration-ms="359" status="PASS">
+    <test started-at="2021-10-29T14:03:40 IST" name="E2E Test of EAApp 1" finished-at="2021-10-29T14:04:07 IST" duration-ms="26667">
+      <class name="com.learn.SpringBasic.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" started-at="2021-10-29T14:03:40 IST" name="setUpClass" finished-at="2021-10-29T14:03:41 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" started-at="2021-10-21T14:17:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T14:17:33 IST" duration-ms="13742" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" started-at="2021-10-29T14:03:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-29T14:04:07 IST" duration-ms="26119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,39 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" started-at="2021-10-21T14:17:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T14:17:33 IST" duration-ms="13279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with correct username and password 2"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[LoginFeature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" started-at="2021-10-21T14:17:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T14:17:32 IST" duration-ms="12535" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with correct username and password 3"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[LoginFeature Again]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" started-at="2021-10-21T14:17:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-21T14:17:31 IST" duration-ms="11992" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" started-at="2021-10-29T14:03:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-29T14:04:05 IST" duration-ms="24265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,11 +46,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ea.SpringBasic.runner.TestRunner@2a5c8d3f]" started-at="2021-10-21T14:17:33 IST" name="tearDownClass" finished-at="2021-10-21T14:17:33 IST" duration-ms="55" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" started-at="2021-10-29T14:03:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-29T14:04:05 IST" duration-ms="24841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and password 3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[LoginFeature Again]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" started-at="2021-10-29T14:03:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-29T14:04:05 IST" duration-ms="24295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and password 2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[LoginFeature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.learn.SpringBasic.runner.TestRunner@74455848]" started-at="2021-10-29T14:04:07 IST" name="tearDownClass" finished-at="2021-10-29T14:04:07 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.ea.SpringBasic.runner.TestRunner -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- com.learn.SpringBasic.runner.TestRunner -->
+    </test> <!-- E2E Test of EAApp 1 -->
+  </suite> <!-- Suite -->
 </testng-results>

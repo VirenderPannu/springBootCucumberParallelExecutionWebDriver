@@ -3,15 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-21T08:47:21.616Z",
+        "start_timestamp": "2021-10-29T08:33:42.800Z",
         "before": [
           {
             "result": {
-              "duration": 6791477000,
+              "duration": 17348967000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
+              "location": "com.learn.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -22,11 +22,11 @@
         "after": [
           {
             "result": {
-              "duration": 1091261000,
+              "duration": 1207552000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+              "location": "com.learn.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -35,25 +35,25 @@
         "steps": [
           {
             "result": {
-              "duration": 934722000,
+              "duration": 1818410000,
               "status": "passed"
             },
             "line": 5,
             "name": "I click login in Home Page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 142523000,
+              "duration": 343190000,
               "status": "passed"
             },
             "line": 6,
             "name": "I enter the following for Login",
             "match": {
-              "location": "com.ea.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+              "location": "com.learn.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -73,52 +73,52 @@
           },
           {
             "result": {
-              "duration": 1715497000,
+              "duration": 1597734000,
               "status": "passed"
             },
             "line": 9,
             "name": "I click login button",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginButton()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 33047000,
+              "duration": 282138000,
               "status": "passed"
             },
             "line": 10,
             "name": "I should see the userform page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1234929000,
+              "duration": 1864278000,
               "status": "passed"
             },
             "line": 11,
             "name": "I click logout link",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLogoutLink()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLogoutLink()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2021-10-21T08:47:21.616Z",
+        "start_timestamp": "2021-10-29T08:33:42.800Z",
         "before": [
           {
             "result": {
-              "duration": 7318279000,
+              "duration": 17391554000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
+              "location": "com.learn.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -129,11 +129,11 @@
         "after": [
           {
             "result": {
-              "duration": 1085007000,
+              "duration": 1319700000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+              "location": "com.learn.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -142,25 +142,25 @@
         "steps": [
           {
             "result": {
-              "duration": 1206477000,
+              "duration": 1690738000,
               "status": "passed"
             },
             "line": 14,
             "name": "I click login in Home Page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 134397000,
+              "duration": 377946000,
               "status": "passed"
             },
             "line": 15,
             "name": "I enter the following for Login",
             "match": {
-              "location": "com.ea.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+              "location": "com.learn.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -180,25 +180,25 @@
           },
           {
             "result": {
-              "duration": 1695529000,
+              "duration": 1591896000,
               "status": "passed"
             },
             "line": 18,
             "name": "I click login button",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginButton()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 41829000,
+              "duration": 263558000,
               "status": "passed"
             },
             "line": 19,
             "name": "I should see the userform page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
             },
             "keyword": "Then "
           }
@@ -209,22 +209,22 @@
     "description": "  This feature deals with the login functionality of the application",
     "id": "loginfeature",
     "keyword": "Feature",
-    "uri": "file:src/test/java/com/ea/SpringBasic/features/Login.feature",
+    "uri": "file:src/test/java/com/learn/SpringBasic/features/Login.feature",
     "tags": []
   },
   {
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-21T08:47:21.616Z",
+        "start_timestamp": "2021-10-29T08:33:42.800Z",
         "before": [
           {
             "result": {
-              "duration": 6743276000,
+              "duration": 17391964000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
+              "location": "com.learn.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -235,11 +235,11 @@
         "after": [
           {
             "result": {
-              "duration": 1084436000,
+              "duration": 1237015000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+              "location": "com.learn.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -248,25 +248,25 @@
         "steps": [
           {
             "result": {
-              "duration": 982556000,
+              "duration": 2131316000,
               "status": "passed"
             },
             "line": 5,
             "name": "I click login in Home Page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 142852000,
+              "duration": 315777000,
               "status": "passed"
             },
             "line": 6,
             "name": "I enter the following for Login",
             "match": {
-              "location": "com.ea.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+              "location": "com.learn.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -286,52 +286,52 @@
           },
           {
             "result": {
-              "duration": 1703454000,
+              "duration": 1871128000,
               "status": "passed"
             },
             "line": 9,
             "name": "I click login button",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginButton()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 33926000,
+              "duration": 107754000,
               "status": "passed"
             },
             "line": 10,
             "name": "I should see the userform page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 46598000,
+              "duration": 129761000,
               "status": "passed"
             },
             "line": 11,
             "name": "I click logout link",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLogoutLink()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLogoutLink()"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2021-10-21T08:47:21.616Z",
+        "start_timestamp": "2021-10-29T08:33:42.800Z",
         "before": [
           {
             "result": {
-              "duration": 6197518000,
+              "duration": 16921669000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.InitializeTest()"
+              "location": "com.learn.SpringBasic.steps.Hooks.InitializeTest()"
             }
           }
         ],
@@ -342,11 +342,11 @@
         "after": [
           {
             "result": {
-              "duration": 1085617000,
+              "duration": 1259049000,
               "status": "passed"
             },
             "match": {
-              "location": "com.ea.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+              "location": "com.learn.SpringBasic.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -355,25 +355,25 @@
         "steps": [
           {
             "result": {
-              "duration": 1051256000,
+              "duration": 1646704000,
               "status": "passed"
             },
             "line": 14,
             "name": "I click login in Home Page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginInHomePage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 180415000,
+              "duration": 460758000,
               "status": "passed"
             },
             "line": 15,
             "name": "I enter the following for Login",
             "match": {
-              "location": "com.ea.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+              "location": "com.learn.SpringBasic.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -393,25 +393,25 @@
           },
           {
             "result": {
-              "duration": 1627524000,
+              "duration": 2016027000,
               "status": "passed"
             },
             "line": 18,
             "name": "I click login button",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iClickLoginButton()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iClickLoginButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 38940000,
+              "duration": 239753000,
               "status": "passed"
             },
             "line": 19,
             "name": "I should see the userform page",
             "match": {
-              "location": "com.ea.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
+              "location": "com.learn.SpringBasic.steps.LoginSteps.iShouldSeeTheUserformPage()"
             },
             "keyword": "Then "
           }
@@ -422,7 +422,7 @@
     "description": "  This feature deals with the login functionality of the application",
     "id": "loginfeature-again",
     "keyword": "Feature",
-    "uri": "file:src/test/java/com/ea/SpringBasic/features/Login_Again.feature",
+    "uri": "file:src/test/java/com/learn/SpringBasic/features/Login_Again.feature",
     "tags": []
   }
 ]

@@ -1,7 +1,8 @@
-com/ea/SpringBasic/libraries/DriverScope.class
-com/ea/SpringBasic/models/TestUserDetails.class
-com/ea/SpringBasic/libraries/WebDriverLibrary.class
-com/ea/SpringBasic/models/UserDetailsPOJO.class
-com/ea/SpringBasic/SpringBasicApplication.class
-com/ea/SpringBasic/libraries/DriverScopePostProcessor.class
-com/ea/SpringBasic/libraries/DriverScopeConfig.class
+com/learn/SpringBasic/libraries/WebDriverLibrary.class
+com/learn/SpringBasic/SpringBasicApplication.class
+com/learn/SpringBasic/libraries/DriverScope.class
+com/learn/SpringBasic/models/UserDetailsPOJO.class
+com/learn/SpringBasic/libraries/RemoteWebDriverFactory.class
+com/learn/SpringBasic/models/TestUserDetails.class
+com/learn/SpringBasic/libraries/DriverScopeConfig.class
+com/learn/SpringBasic/libraries/DriverScopePostProcessor.class
