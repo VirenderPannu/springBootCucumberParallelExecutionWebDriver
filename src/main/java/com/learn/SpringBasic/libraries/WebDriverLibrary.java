@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Scope;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-//@Configuration // enable this config for the local execution
+@Configuration // enable this config for the local execution
 //@Component
 public class WebDriverLibrary {
 
@@ -21,6 +21,7 @@ public class WebDriverLibrary {
     @ConditionalOnProperty(name = "browser", havingValue = "chrome")
     @Scope("webdriverscope")
     public WebDriver getChromeDriver() {
+        System.setProperty("webdriver.chrome.driver","/SpringBasicParallelExecution/src/main/resources/chromedriver");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
@@ -31,6 +32,7 @@ public class WebDriverLibrary {
     @ConditionalOnProperty(name = "browser", havingValue = "firefox")
     @Scope("webdriverscope")
     public WebDriver getFirefoxDriver() {
+        System.setProperty("webdriver.gecko.driver","/SpringBasicParallelExecution/src/main/resources/geckodriver");
         FirefoxOptions firefoxOptions = new FirefoxOptions();
         firefoxOptions.addArguments("--headless");
         WebDriverManager.firefoxdriver().setup();

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-@Configuration
+// @Configuration // enable this config for the local execution
 //@Component
 public class RemoteWebDriverFactory {
     String Node = "http://localhost:4444";
