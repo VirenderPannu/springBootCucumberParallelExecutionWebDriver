@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Scope;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-//@Configuration // enable this config for the local execution
+@Configuration // enable this config for the local execution
 //@Component
 public class WebDriverLibrary {
 
