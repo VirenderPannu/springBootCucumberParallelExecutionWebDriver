@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-//@Configuration // enable this config for the local execution
+@Configuration // enable this config for the local execution
 //@Component
 public class RemoteWebDriverFactory {
-    String Node = "http://localhost:4444";
+    String Node = "http://http://192.168.1.13:4444";
 
     @Bean
     @ConditionalOnProperty(name = "browser", havingValue = "chrome")
